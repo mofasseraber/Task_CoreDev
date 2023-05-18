@@ -16,6 +16,7 @@
   "dependencies": {
     "@lyrasearch/lyra": "^0.4.9",
     "@lyrasearch/plugin-data-persistence": "^0.1.1",
+    "api": "^5.0.8",
     "axios": "^1.4.0",
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",
@@ -46,5 +47,3 @@
     "nodemon": "^2.0.20"
   }
 }
-
-

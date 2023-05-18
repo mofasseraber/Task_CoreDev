@@ -54,7 +54,7 @@ export default function Order() {
                     <p className="text-black text-base font-normal">Estimated Total</p>
                     <p className="font-bold text-xl text-textHeader">৳ {totalPrice} TK </p>
                 </div>
-                <Btn >Continue to Payment</Btn>
+                <Btn onClick={toggleModal} >Continue to Payment</Btn>
                 {open ? <PaymentMd /> : ""}
             </div>
         </div >

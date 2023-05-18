@@ -55,7 +55,7 @@ export default class App {
         credentials: true
       }));
     this.express.use(morgan('common')); // Logger
-    this.express.use(actuator({ infoGitMode: 'full' })); // Health Checker
+    //this.express.use(actuator({ infoGitMode: 'full' })); // Health Checker
     this.express.use(json()); // Parse JSON response
     this.express.use(urlencoded({ extended: false })); // Legacy URL encoding
     this.express.use(cookieParser()); // Parse cookies

@@ -17,7 +17,6 @@ var _settings = _interopRequireDefault(require("../settings.json"));
 
 // The previous way will keep working but will not be served as endpoint
 // \x1b[0m`);
-console.log(_settings.default.mongodbURL);
 (() => {
   // Check for clients directory as it is required by this framework
   const statics = _path.default.resolve(__dirname, '..', 'client');
